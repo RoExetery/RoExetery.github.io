@@ -1,50 +1,13 @@
 
-.li-1 {
+
+.anim{
 line-height: 1;
 display: inline-block;
-color:#ffeb3b;
+color:#00d5ff;
 text-decoration:none;
 cursor: pointer;
 }
-.li-1:after {
-display: block;
-content: "";
-height: 4px;
-width: 0%;
-background-color: #ffeb3b;
-transition: width .3s ease-in-out;
-}
-.li-1:hover:after,
-.li-1:focus:after {
-width: 100%;
-}
-.li-2 {
-line-height: 1;
-display: inline-block;
-color: coral;
-text-decoration:none;
-cursor: pointer;
-}
-.li-2:after {
-display: block;
-content: "";
-height: 4px;
-width: 0%;
-background-color: coral;
-transition: width .3s ease-in-out;
-}
-.li-2:hover:after,
-.li-2:focus:after {
-width: 100%;
-}
-.li-3 {
-line-height: 1;
-display: inline-block;
-color: #00d5ff;
-text-decoration:none;
-cursor: pointer;
-}
-.li-3:after {
+.anim:after {
 display: block;
 content: "";
 height: 4px;
@@ -52,7 +15,36 @@ width: 0%;
 background-color: #00d5ff;
 transition: width .3s ease-in-out;
 }
-.li-3:hover:after,
-.li-3:focus:after {
+.anim:hover:after,
+.anim:focus:after {
 width: 100%;
+}
+
+.custom-logo{
+ font-weight: bold;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	-webkit-font-smoothing:antialiased;
+	-webkit-overflow-scrolling: touch;
+	margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway;"
+	font-weight: 300;
+	color: #333;
+}
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered{
+	text-align: center;
 }
